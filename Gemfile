@@ -29,9 +29,15 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+# Use Twitter Bootstrap library for front-end UI and layout
+gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap', '~> 4.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'binding_of_caller', '~> 0.8.0'
+gem 'mini_racer', platforms: :ruby
+gem 'autoprefixer-rails', '~> 9.1', '>= 9.1.3'
+gem 'execjs', '~> 2.7'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -50,6 +56,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # gem 'better_errors', '~> 2.5'
 end
 group :production do
   # Use the PostgreSQL gem for Heroku production servers
