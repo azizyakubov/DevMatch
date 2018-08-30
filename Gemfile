@@ -40,6 +40,8 @@ gem 'autoprefixer-rails', '~> 9.1', '>= 9.1.3'
 gem 'execjs', '~> 2.7'
 gem "font-awesome-rails"
 gem 'font-awesome-sass', '4.6.2'
+# Use Hirb gem for better console data presentation
+gem 'hirb', '0.7.3'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
