@@ -38,6 +38,8 @@ gem 'binding_of_caller', '~> 0.8.0'
 gem 'mini_racer', platforms: :ruby
 gem 'autoprefixer-rails', '~> 9.1', '>= 9.1.3'
 gem 'execjs', '~> 2.7'
+gem "font-awesome-rails"
+gem 'font-awesome-sass', '4.6.2'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
