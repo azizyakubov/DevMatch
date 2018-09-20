@@ -1,24 +1,7 @@
-# README
+#DevMatch
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A membership site where entrepreneurs can meet developers.
 
-Things you may want to cover:
+Completed as part of an Upskill Ruby on Rails tutorial.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Access by visiting [DevMatch](https://warm-lake-44194.herokuapp.com/)
