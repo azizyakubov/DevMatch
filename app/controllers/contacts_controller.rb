@@ -1,8 +1,11 @@
 class ContactsController < ApplicationController
+  #GET request to /contact-us
+  #show new contact form
   def new
     @contact = Contact.new
   end
 
+  #POST request /contacts
   def create
   @contact = Contact.new(contact_params)
     if @contact.save
