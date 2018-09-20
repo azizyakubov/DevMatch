@@ -38,8 +38,6 @@
 # gem 'mini_racer', platforms: :ruby
 # gem 'autoprefixer-rails', '~> 9.1', '>= 9.1.3'
 # gem 'execjs', '~> 2.7'
-# gem "font-awesome-rails"
-# gem 'font-awesome-sass', '4.6.2'
 # # Use Hirb gem for better console data presentation
 # gem 'hirb', '0.7.3'
 # #Use devise for user authentication
@@ -106,6 +104,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '3.3.7'
 
 # Use Font Awesome sass gem for adding icons
+gem "font-awesome-rails"
 gem 'font-awesome-sass', '4.6.2'
 
 # Use Hirb for better database table display in console
