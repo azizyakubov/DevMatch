@@ -8,6 +8,7 @@ class User < ApplicationRecord
 
   attr_accessor :stripe_card_token
 
+  # If Pro user passes validations, Stripe will provide with a customer token after creating a subscription. 
   def save_with_subscription
     if valid?
       customer = Stripe::Customer.create(description: email, plan: plan_id, card: stripe_card_token)
