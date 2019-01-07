@@ -9,9 +9,12 @@ Investors and developers are able to see full contact information based on their
 Payment processing is completed by Stripe.
 To sign up with a Pro account without using a real credit card use the following information:
 
-  Credit Card number: 4111 1111 1111 1111
-  CVV: any 3 digit number (i.e 123)
-  Expiration: any date in the future
+    Credit Card number: 4111 1111 1111 1111
+  
+    CVV: any 3 digit number (i.e 123)
+  
+    Expiration: any date in the future
+  
 
 Completed as part of an Upskill Ruby on Rails tutorial.
 
